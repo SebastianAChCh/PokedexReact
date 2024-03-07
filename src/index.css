@@ -1,0 +1,148 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.App {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+}
+
+.cabecera {
+  background: #1b1b1c;
+  padding: 10px;
+  color: #fff;
+  text-align: left;
+}
+
+.cards {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.abilidades {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+
+.nombre-abilidad {
+  border: 2px solid #1b1b1c;
+  width: 90vw;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  padding: 10px;
+}
+
+.tarjeta {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  text-transform: capitalize;
+  margin: 10px;
+  width: 90%;
+  height: 230px;
+  box-shadow: 8px 8px 30px rgba(0, 0, 0, 0.25);
+}
+
+.image {
+  height: 150px;
+}
+
+.link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.card-body {
+  display: flex;
+  justify-content: center;
+}
+
+.card-specific {
+  display: flex;
+  justify-content: center;
+}
+
+.card-ability {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  text-align: center;
+}
+
+.card-footer {
+  padding: 10px;
+  margin: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.normal {
+  background: #a8a878;
+}
+.fire {
+  background: #f08030;
+}
+.water {
+  background: #6890f0;
+}
+.grass {
+  background: #78c850;
+}
+.electric {
+  background: #f8d030;
+}
+.ice {
+  background: #98d8d8;
+}
+.fighting {
+  background: #c03028;
+}
+.poison {
+  background: #a040a0;
+}
+.ground {
+  background: #e0c068;
+}
+.flying {
+  background: #a890f0;
+}
+.psychic {
+  background: #f85888;
+}
+.bug {
+  background: #a8b820;
+}
+.rock {
+  background: #b8a038;
+}
+.ghost {
+  background: #705898;
+}
+.dark {
+  background: #705848;
+}
+.dragon {
+  background: #7038f8;
+}
+.steel {
+  background: #b8b8d0;
+}
+.fairy {
+  background: #f0b6bc;
+}
